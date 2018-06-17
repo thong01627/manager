@@ -1,0 +1,42 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: index.php
+  
+- url: /.*
+  script: chi_tiet.php
+  
+- url: /.*
+  script: footer.php
+  
+- url: /.*
+  script: gioithieu.php
+  
+- url: /.*
+  script: huongdanmuahang.php
+  
+- url: /.*
+  script: ket_noi.php
+
+ - url: /.*
+  script: login_SignUp.php
+  
+ - url: /.*
+  script: mat_ma.php
+  
+ - url: /.*
+  script: vanchuyen.php
+  
+ - url: /.*
+  script: xulidangky.php
+  
+ - url: /.*
+    script: xulilogin.php
+
+ - url: chuc_nang/.*
+    script: dieuhuong.php
+  
+ - url: chuc_nang/.*
+    script: xuat_mot_tin.php

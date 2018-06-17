@@ -30,10 +30,8 @@
                     </ul>
                 </div>
                 <div class="header_center">
-                	<div class="header_center_left"><?php include("chuc_nang/tim_kiem/vung_tim_kiem.php");?></div>
-                    <div class="header_center_right"></div>
+                	<?php include("chuc_nang/tim_kiem/vung_tim_kiem.php");?>
                 </div>
-                
                 <div class="header_right">
                 	<ul>
                     	
@@ -55,7 +53,7 @@
                 </div>
         	</div>
             <div style=" text-align:center; margin-top:25px; margin-bottom:15px;">
-            	<a href="index.php"><img src="hinh_anh/banner/Capture1.PNG"></a>
+            	<img src="hinh_anh/banner/Capture1.PNG">
             </div>
 			<div class="menu">
            				<?php
@@ -71,8 +69,8 @@
                             	<?php include("chuc_nang/menu_doc/menu_doc.php"); ?>
                              </div>   
                         </div>   
-                       
-                        <div class="nhungdanhmuc" style="padding-bottom:9px;">
+                        
+                        <div class="nhungdanhmuc">
                         	<div class="tendanhmuc">Sản Phẩm Nổi Bật </div> 
                             
                         	<?php include("chuc_nang/san_pham/noi_bat.php");?>
@@ -82,15 +80,17 @@
                     </div>
                     
                     <div class="conten_right">
-                			
-                            <div class="conten_right-bottom">
+                    		<div style="border:1px solid #000; color:#000; text-align:justify; padding:5px;">
                             	
-                                    <?php 
-                                        include("chuc_nang/dieu_huong.php");
-                                    ?>
-                                   
-  							</div>
-                	</div>		
+
+                                <p><h4>Bảng Phí Vận Chuyển: </h4></p>
+                                <div style="width:99%">
+                                <img src="hinh_anh/tinymce/Capture2.PNG" width="100%" height="197"></div>
+                                <p><br>
+                                </p>
+                           
+                            
+   	                  </div>		
             </div>
             <!-- end conten--->
 				<?php include('footer.php');?>	
